@@ -19,14 +19,19 @@ td {
     width: 10vh;
     height: 10vh;
     background-color: yellow;
+    text-align: center;
+}
+
+span {
+    color: rgb(92, 92, 255);
 }
 
 /*
  * Bootstrap Overrides
  */
  .btn {
-    width: 10vh;
-    height: 10vh;
+    width: 9vh;
+    height: 9vh;
     border-radius: 50%;
     background-color: white;
     border: 1px solid black;
@@ -40,19 +45,3 @@ td {
  * Classes
  * =======
  */
-
-.playerOneText {
-    color: rgb(92, 92, 255);
-}
-
-.playerOneBack {
-    background-color: rgb(92, 92, 255);
-}
-
-.playerTwoText {
-    color: rgb(255, 92, 92);
-}
-
-.playerTwoBack {
-    background-color: rgb(255, 92, 92);
-}
