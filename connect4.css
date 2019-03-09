@@ -1,0 +1,58 @@
+/* 
+ *  Author: Evan Douglass
+ *  Created: March 07 2019
+ *  A simple tic-tac-toe game built with front-end web technologies.
+ */
+
+ /*
+ * DOM Elements
+ * ============
+ */
+
+ table {
+    border: 3px solid black;
+    margin: 1em auto 1em auto;
+}
+
+td {
+    border: 1px solid black;
+    width: 10vh;
+    height: 10vh;
+    background-color: yellow;
+}
+
+/*
+ * Bootstrap Overrides
+ */
+ .btn {
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+/*
+ * Classes
+ * =======
+ */
+
+.playerOneText {
+    color: rgb(92, 92, 255);
+}
+
+.playerOneBack {
+    background-color: rgb(92, 92, 255);
+}
+
+.playerTwoText {
+    color: rgb(255, 92, 92);
+}
+
+.playerTwoBack {
+    background-color: rgb(255, 92, 92);
+}
