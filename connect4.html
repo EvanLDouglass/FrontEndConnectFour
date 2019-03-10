@@ -18,13 +18,14 @@
     <title>Connect Four</title>
 </head>
 <body>
-    <div class='container'>  <!--Title and Info-->
-        <h1 class='display-4 text-center my-3'>Welcome to Connect Four!</h1>
-        <h3 class='text-center mb-3'>The object of the game is to connect four of your pieces in a row.</h2>
-        <h4 class='text-center' id="instr"><span>Player One</span>: Pick a column to place your blue tile.</h3>
+    <div class='container text-center'>  <!--Title and Info-->
+        <h1 class='display-4 my-3'>Welcome to Connect Four!</h1>
+        <h3 class='my-2'>The object of the game is to connect four of your pieces in a row.</h3>
+        <h2 class='my-2' id="instr"><span>Player One</span>: Pick a column</h2>
+        
     </div>  <!--/Title and Info-->
 
-    <div>  <!--Game Board-->
+    <div class="container text-center">  <!--Game Board-->
         <table>
             <tr>
                 <td><button class="btn"></button></td>
@@ -81,7 +82,13 @@
                 <td><button class="btn"></button></td>
             </tr>
         </table>
-    </div>  <!--/Game Board-->
+    </div>
+
+    <div class="container text-center">
+        <a href="connect4.html" id="restart" class="btn btn-success btn-lg mb-3 d-none">
+            Restart
+        </a>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

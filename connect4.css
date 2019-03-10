@@ -29,7 +29,7 @@ span {
 /*
  * Bootstrap Overrides
  */
- .btn {
+ td .btn {
     width: 9vh;
     height: 9vh;
     border-radius: 50%;
@@ -40,8 +40,3 @@ span {
 .btn:focus {
     box-shadow: none;
 }
-
-/*
- * Classes
- * =======
- */
